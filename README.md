@@ -50,4 +50,6 @@ A client application ([C]) opens a NETCONF session to the server (device) ([S])
 [C] inspects the response and processes it as needed
 Note that there is no requirement for the client or server to process the YANG modules in this way. The server may hard code the contents of the data model, rather than handle the content via a generic engine. Or the client may be targeted at the specific YANG model, rather than being driven generically. Such a client might be a simple shell script that stuffs arguments into an XML payload template and sends it to the server.
   
-  ------Please write to quickyangserver@gmail.com for further information or queries----------------------
+  ------Please write to quickyangserver@gmail.com for further information or queries-----------------------
+
+ 
