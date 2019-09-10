@@ -2,10 +2,10 @@
 Highly Scalable Netconf Yang server
 In a YANG-based solution, the client and server are driven by the content of YANG modules. The server includes the definitions of the modules as meta-data that is available to the NETCONF engine. This engine processes incoming requests, uses the meta-data to parse and verify the request, performs the requested operation, and returns the results to the client.
 
-                     +----------------------------+ 
-                     |Server (device)             | 
-                     |    +--------------------+  | 
-                     |    |      configuration |  | 
+                      +----------------------------+ 
+                      |       Server (device)      | 
+                      |    +--------------------+  | 
+                      |    |      configuration |  | 
            +----+     |    |     ---------------|  | 
            |YANG|+    |    | m d  state data    |  | 
            |mods||+   |    | e a ---------------|  | 
@@ -22,7 +22,7 @@ In a YANG-based solution, the client and server are driven by the content of YAN
     | (app)|          |     |   engine    |        | 
     |      | <------------  |             |        |   
     +------+ <rpc-reply>    +-------------+        |   
-                    |       /        \           |   
+                      |       /        \           |   
                     |      /          \          |   
                     |     /            \         | 
                     | +--------+   +---------+   | 
