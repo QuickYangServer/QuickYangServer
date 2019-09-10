@@ -5,7 +5,7 @@ In a YANG-based solution, the client and server are driven by the content of YAN
                      +----------------------------+ 
                      |Server (device)             | 
                      |    +--------------------+  | 
-                     |    |      configuration |  | 
+                      |    |      configuration |  | 
            +----+     |    |     ---------------|  | 
            |YANG|+    |    | m d  state data    |  | 
            |mods||+   |    | e a ---------------|  | 
